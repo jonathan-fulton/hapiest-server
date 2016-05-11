@@ -1,0 +1,52 @@
+{
+  "name": "hapiest-server",
+  "version": "0.0.1",
+  "description": "A wrapper around Hapi.js with a configuration-first approach",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha ./test/unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathan-fulton/hapiest-server.git"
+  },
+  "keywords": [
+    "hapi.js",
+    "hapiest",
+    "HTTP",
+    "server",
+    "MVC",
+    "framework"
+  ],
+  "author": "Jonathan Fulton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathan-fulton/hapiest-server/issues"
+  },
+  "homepage": "https://github.com/jonathan-fulton/hapiest-server#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.4",
+    "blipp": "^2.3.0",
+    "config": "^1.20.1",
+    "fs": "0.0.2",
+    "good": "^6.6.3",
+    "good-console": "^6.1.1",
+    "good-winston": "^1.0.0",
+    "hapi": "^13.4.0",
+    "hapi-router": "^3.5.0",
+    "hapi-to": "^1.0.0",
+    "hapiest-logger": "0.0.1",
+    "hapiest-vo": "0.0.2",
+    "inert": "^4.0.0",
+    "joi": "^8.1.0",
+    "lout": "^9.0.0",
+    "path": "^0.12.7",
+    "poop": "^2.0.0",
+    "url": "^0.11.0",
+    "vision": "^4.1.0"
+  },
+  "devDependencies": {
+    "events": "^1.1.0",
+    "should": "^8.3.1"
+  }
+}
