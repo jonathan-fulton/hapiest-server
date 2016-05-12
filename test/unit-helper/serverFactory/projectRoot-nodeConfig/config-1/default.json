@@ -1,0 +1,23 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": "3003",
+
+    "sslEnabled": false,
+
+    "plugins": {
+      "good": {
+        "enabled": true
+      }
+    }
+  },
+
+  "logger": {
+    "enabled": true,
+    "consoleTransport": {
+      "enabled": true,
+      "level": "info",
+      "colorize": true
+    }
+  }
+}

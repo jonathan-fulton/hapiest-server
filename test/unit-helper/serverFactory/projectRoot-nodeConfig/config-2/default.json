@@ -1,0 +1,62 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": "3004",
+
+    "sslEnabled": true,
+    "sslKeyMethod": "file",
+    "sslKeyFile": "config-2/certs/local/key.pem",
+    "sslCertificateFile": "config-2/certs/local/server.crt",
+
+    "redirectHttpToHttps": true,
+    "redirectMethod": "redirectServer",
+    "redirectPort": "3003",
+
+    "plugins": {
+      "good": {
+        "enabled": true
+      },
+      "poop": {
+        "enabled": true
+      },
+      "blipp": {
+        "enabled": false
+      },
+      "vision": {
+        "enabled": true
+      },
+      "inert": {
+        "enabled": true
+      },
+      "lout": {
+        "enabled": false
+      }
+    }
+  },
+
+  "logger": {
+    "enabled": true,
+    "consoleTransport": {
+      "enabled": true,
+      "level": "debug",
+      "colorize": true
+    }
+  },
+
+  "database": {
+    "write": {
+      "host": "localhost",
+      "database": "optimage",
+      "user": "optimagedev",
+      "password": "=7QM^!4ynHebT7s7",
+      "connectionLimit": 10
+    },
+    "read": {
+      "host": "localhost",
+      "database": "optimage",
+      "user": "optimagedev",
+      "password": "=7QM^!4ynHebT7s7",
+      "connectionLimit": 10
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "hapiest-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A wrapper around Hapi.js with a configuration-first approach",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,6 @@
     "config": "^1.20.1",
     "fs": "0.0.2",
     "good": "^6.6.3",
-    "good-console": "^6.1.1",
     "good-winston": "^1.0.0",
     "hapi": "^13.4.0",
     "hapi-router": "^3.5.0",
@@ -46,6 +45,7 @@
     "vision": "^4.1.0"
   },
   "devDependencies": {
+    "config-uncached": "^1.0.2",
     "events": "^1.1.0",
     "should": "^8.3.1"
   }
