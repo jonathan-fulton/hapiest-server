@@ -1,0 +1,9 @@
+{
+  "server": {
+    "plugins": {
+      "good": {
+        "enabled": true
+      }
+    }
+  }
+}

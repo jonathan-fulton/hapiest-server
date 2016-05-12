@@ -1,0 +1,29 @@
+{
+  "server": {
+    "plugins": {
+      "good": {
+        "enabled": true,
+        "consoleReporterEnabled": true
+      },
+      "poop": {
+        "enabled": true
+      },
+      "blipp": {
+        "enabled": false
+      },
+      "vision": {
+        "enabled": true
+      },
+      "inert": {
+        "enabled": true
+      },
+      "lout": {
+        "enabled": false
+      },
+      "hapiRouter": {
+        "enabled": true,
+        "routes": "app/server/modules/**/*Routes.js"
+      }
+    }
+  }
+}
