@@ -1,3 +1,8 @@
 'use strict';
 
-module.exports = require('./lib/serverFactory');
+/**
+ * @type {ServerFactory}
+ */
+const ServerFactory = require('./lib/serverFactory');
+
+module.exports = ServerFactory;
