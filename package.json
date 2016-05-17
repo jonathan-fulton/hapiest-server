@@ -1,6 +1,6 @@
 {
   "name": "hapiest-server",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "A wrapper around Hapi.js with a configuration-first approach",
   "main": "index.js",
   "scripts": {
@@ -34,8 +34,8 @@
     "hapi": "^13.4.0",
     "hapi-router": "^3.5.0",
     "hapi-to": "^1.0.0",
-    "hapiest-logger": "0.0.2",
-    "hapiest-vo": "0.0.2",
+    "hapiest-logger": "^0.0.4",
+    "hapiest-vo": "^0.0.3",
     "inert": "^4.0.0",
     "joi": "^8.1.0",
     "lout": "^9.0.0",
