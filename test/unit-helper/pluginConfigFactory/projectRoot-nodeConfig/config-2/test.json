@@ -3,7 +3,11 @@
     "plugins": {
       "good": {
         "enabled": true,
-        "consoleReporterEnabled": true
+        "events": {
+          "log": "*",
+          "request": "*"
+        },
+        "opsInterval": 2000
       },
       "poop": {
         "enabled": true

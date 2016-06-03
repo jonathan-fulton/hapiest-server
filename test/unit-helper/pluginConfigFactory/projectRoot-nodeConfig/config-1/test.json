@@ -2,7 +2,8 @@
   "server": {
     "plugins": {
       "good": {
-        "enabled": true
+        "enabled": true,
+        "opsInterval": 5000
       }
     }
   }

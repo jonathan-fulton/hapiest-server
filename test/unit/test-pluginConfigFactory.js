@@ -21,6 +21,8 @@ describe('PluginConfigFactory', function() {
             Should.exist(pluginConfig);
             pluginConfig.blipp.enabled.should.be.false;
             pluginConfig.good.enabled.should.be.true;
+            Should.not.exist(pluginConfig.good.events);
+            pluginConfig.good.opsInterval.should.eql(5000);
             pluginConfig.vision.enabled.should.be.false;
             pluginConfig.inert.enabled.should.be.false;
             pluginConfig.lout.enabled.should.be.false;
@@ -41,6 +43,11 @@ describe('PluginConfigFactory', function() {
             Should.exist(pluginConfig);
             pluginConfig.blipp.enabled.should.be.false;
             pluginConfig.good.enabled.should.be.true;
+            pluginConfig.good.events.should.deepEqual({
+                log: '*',
+                request: '*'
+            });
+            pluginConfig.good.opsInterval.should.eql(2000);
             pluginConfig.vision.enabled.should.be.true;
             pluginConfig.inert.enabled.should.be.true;
             pluginConfig.lout.enabled.should.be.false;
