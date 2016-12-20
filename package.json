@@ -1,6 +1,6 @@
 {
   "name": "hapiest-server",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "A wrapper around Hapi.js with a configuration-first approach",
   "main": "index.js",
   "scripts": {
